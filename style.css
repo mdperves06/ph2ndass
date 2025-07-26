@@ -80,7 +80,7 @@ nav ul li:first-child {
   width: 25px;
 }
 
-/* ! Hero Section */
+/* ! Here Section */
 
 .hero {
   max-width: 1440px;
@@ -104,9 +104,9 @@ nav ul li:first-child {
 .hero_title h1 {
   font-size: 65px;
   font-weight: 700;
+  font-family: 'Noto Serif', serif;
   color: var(--text_primary);
   padding-bottom: 20px;
-  font-family: 'Noto Serif', serif;
 }
 
 .hero_title h1 span {
@@ -755,9 +755,9 @@ nav ul li:first-child {
   }
 }
 
-/* ! Mobile Small 375px */
+/* ! Mobile Small 370px */
 
-@media (max-width: 375px) {
+@media (max-width: 370px) {
   .header {
     margin: 20px auto 0;
   }
