@@ -19,3 +19,119 @@
 body {
   background-color: #f5f8ff;
 }
+/* ! Header Section */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 0;
+  padding: 0 2%;
+  max-width: 1440px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  color: var(--content_text);
+}
+
+.balance,
+nav ul li {
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+nav ul li:hover,
+.balance:hover {
+  background-color: #00000017;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+nav ul li:first-child {
+  color: var(--text_primary);
+  font-weight: 700;
+  background-color: var(--primary_color);
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text_primary);
+}
+
+.balance img {
+  width: 25px;
+}
+
+/* ! Hero Section */
+
+.hero {
+  max-width: 1440px;
+  margin: 120px auto 0;
+  padding: 0 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_title,
+.hero_img {
+  width: 50%;
+}
+
+.hero_img img {
+  width: 100%;
+  display: block;
+}
+
+.hero_title h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: var(--text_primary);
+  padding-bottom: 20px;
+  font-family: 'Noto Serif', serif;
+}
+
+.hero_title h1 span {
+  color: var(--primary_color);
+}
+
+.hero_title p {
+  font-size: 24px;
+  color: var(--content_text);
+  text-align: justify;
+  padding-right: 3%;
+}
+
+/* ! Our Plants Section */
+
+.plants {
+  margin: 120px auto 0;
+  max-width: 1440px;
+  padding: 0 2%;
+  text-align: center;
+}
+
+.plants h1 {
+  font-size: 65px;
+  color: var(--text_primary);
+  padding-bottom: 20px;
+  font-family: 'Noto Serif', serif;
+}
